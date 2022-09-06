@@ -1,0 +1,25 @@
+{
+  "name": "@royalscome/electron-file-manage",
+  "version": "1.0.6",
+  "description": "electron文件管理工具",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/royalscome/electron-file-manage.git"
+  },
+  "author": "weiyang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/royalscome/electron-file-manage/issues"
+  },
+  "homepage": "https://github.com/royalscome/electron-file-manage#readme",
+  "dependencies": {
+    "@royalscome/format": "^2.0.7"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
