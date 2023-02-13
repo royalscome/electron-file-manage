@@ -5,11 +5,12 @@
  * @LastEditors: weiyang
  * @LastEditTime: 2022-09-06 14:32:42
  */
-const requires = require || window.require;
-const { remote } = requires("electron");
-const path = requires("path");
+// const requires = require || window.require;
+import { remote } from ("electron");
+import path from ("path");
 const exePath = path.dirname(remote.app.getPath("exe"));
-const fs = requires("fs");
+// const fs = requires("fs");
+import fs from "fs";
 import { DateFormat } from "@royalscome/format";
 
 const initHasPath = (path, resolve, reject) => {

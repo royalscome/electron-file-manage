@@ -5,8 +5,9 @@
  * @LastEditors: weiyang
  * @LastEditTime: 2022-09-07 14:12:18
  */
-const requires = require || window.require;
-const fs = requires("fs");
+// const requires = require || window.require;
+// const fs = requires("fs");
+import fs from "fs";
 
 function mkdir(path, resolve, reject) {
   fs.mkdir(path, (error) => {

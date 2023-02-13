@@ -1,6 +1,6 @@
 {
   "name": "@royalscome/electron-file-manage",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "electron文件管理工具",
   "main": "./src/index.js",
   "scripts": {

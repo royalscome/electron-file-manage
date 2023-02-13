@@ -5,8 +5,9 @@
  * @LastEditors: weiyang
  * @LastEditTime: 2022-09-07 10:44:51
  */
-const requires = require || window.require;
-const fs = requires("fs");
+// const requires = require || window.require;
+// const fs = requires("fs");
+import fs from "fs";
 
 function writeFile({ path, data, options, resolve, reject }) {
   let newOptions =

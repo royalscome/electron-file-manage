@@ -5,8 +5,9 @@
  * @LastEditors: weiyang
  * @LastEditTime: 2022-09-07 10:36:56
  */
-const requires = require || window.require;
-const fs = requires("fs");
+// const requires = require || window.require;
+// const fs = requires("fs");
+import fs from "fs";
 
 function readFile({ path, format = undefined, resolve, reject }) {
   const newFormat = typeof format === "string" ? format : "utf-8";

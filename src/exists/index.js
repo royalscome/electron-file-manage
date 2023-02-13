@@ -5,8 +5,9 @@
  * @LastEditors: weiyang
  * @LastEditTime: 2022-09-07 11:26:17
  */
-const requires = require || window.require;
-const fs = requires("fs");
+// const requires = require || window.require;
+// const fs = requires("fs");
+import fs from "fs";
 
 function exists(path, resolve, reject) {
   fs.exists(path, (isHave) => {
